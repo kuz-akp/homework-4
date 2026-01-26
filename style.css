@@ -1,0 +1,35 @@
+div > p {
+  color: red;
+}
+.yellowbackground {
+  background-color: yellow;
+}
+p {
+  color: blue;
+}
+#text {
+  color: green;
+}
+.text {
+  color: blueviolet;
+}
+div p {
+  color: cadetblue;
+}
+section > h2 {
+  color: darksalmon;
+  text-align: left;
+}
+
+h1,
+h1 + p,
+h2 {
+  color: forestgreen;
+  text-align: center;
+}
+a[href$=".png"] {
+  color: fuchsia;
+}
+div + p {
+  color: aqua;
+}
